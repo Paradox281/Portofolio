@@ -27,7 +27,7 @@ import {
 } from "lucide-react"
 
 function AnimatedCat() {
-  const cat = useGLTF("/cat.glb")
+  const cat = useGLTF("/Cat.glb")
   const meshRef = useRef(null)
 
   useFrame((state) => {
